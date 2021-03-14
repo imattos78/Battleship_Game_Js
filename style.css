@@ -1,0 +1,36 @@
+html, body, .grid-container { 
+    height: 100%; 
+    margin: 0; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . ."
+      ". . . . . . . . . .";
+      background-color: yellow;
+  }
+  .grid-container * {
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .grid-container *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
