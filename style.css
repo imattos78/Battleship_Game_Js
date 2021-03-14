@@ -23,3 +23,16 @@ html {
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 }
+.displays {
+	position: relative;
+	margin: 25px;
+}
+
+.top {
+	width: 330px;
+	height: 330px;
+	background: #008B8B;
+	border-left: 1px solid #8DEEEE;
+	border-bottom: 1px solid #8DEEEE;
+
+}
