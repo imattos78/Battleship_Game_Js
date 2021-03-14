@@ -15,3 +15,11 @@ html {
 	margin: auto;
 
 }
+.board {
+	position: absolute;
+	width: 380px; 
+	height: 740px;
+	margin: 25px auto;
+	border: 2px solid #73B1B7;
+	border-radius: 10px;
+}
