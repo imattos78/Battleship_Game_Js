@@ -93,3 +93,16 @@ html {
 .highlight {
 	background: rgba(144,144,144,0.9);
 }
+.hidezero {
+	color: #008B8B;
+}
+
+.hole {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 9px;
+	border: 1px solid #8DEEEE;
+	border-radius: 50%;
+	display: table;
+}
