@@ -80,3 +80,13 @@ html {
 	color: white;
 	text-align: center;
 }
+.points {
+	position: relative;
+	width: 29px;
+	height: 29px;
+	border-top: 1px solid #8DEEEE;
+	border-right: 1px solid #8DEEEE;
+	display: inline-block;
+
+
+}
