@@ -54,3 +54,29 @@ html {
 	margin-left: 30px;
 	font-size: 0;
 }
+.aTops {
+	width: 29px;
+	height: 29px;
+	border-top: 1px solid #8DEEEE;
+	border-right: 1px solid #8DEEEE;
+	display: table-cell;
+	vertical-align: middle;
+
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.aLeft {
+	position: relative;
+	width: 29px;
+	height: 29px;
+	border-top: 1px solid #8DEEEE;
+	border-right: 1px solid #8DEEEE;
+	display: block;
+	line-height: 29px;
+
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
