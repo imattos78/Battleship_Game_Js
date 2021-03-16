@@ -122,3 +122,9 @@ html {
 .bottomPanel {
 	
 }
+.console {
+	position: relative;
+	width: 275px;
+	height: 350px;
+	margin-top: 36px;
+	display: block;
