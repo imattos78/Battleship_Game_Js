@@ -142,3 +142,24 @@ html {
 	margin: 12px;
 	display: inline-block;
 }
+.buttons {
+	position: relative;
+	display: block;
+	width: 150px;
+	height: 40px;
+
+	margin: 50px auto;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	text-align: center;
+	line-height: 40px;
+
+	cursor: pointer;
+}
+
+.buttons:hover {
+	background: rgba(169,169,169,0.3);
+}
