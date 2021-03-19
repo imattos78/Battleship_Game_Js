@@ -240,3 +240,37 @@ html {
  	-moz-animation-timing-function: linear;
  	-moz-animation-fill-mode: none;
 }
+.miss {
+	position: relative;
+	margin: 1.5px;
+	width: 15px;
+	height: 15px;
+	top: 5px;
+	left: 5px;
+
+	background: rgb(250,250,250);
+	border: 1px solid white;
+	border-radius: 100%;
+	overflow: hidden;
+
+	display: table;
+
+	animation: expand;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+ 	animation-timing-function: linear;
+ 	animation-fill-mode: none;
+
+	-webkit-animation: expand;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+ 	-webkit-animation-timing-function: linear;
+ 	-webkit-animation-fill-mode: none;
+
+ 	-moz-animation: expand;
+	-moz-animation-duration: 0.5s;
+	-moz-animation-iteration-count: 1;
+ 	-moz-animation-timing-function: linear;
+ 	-moz-animation-fill-mode: none;
+
+}
