@@ -163,3 +163,26 @@ html {
 .buttons:hover {
 	background: rgba(169,169,169,0.3);
 }
+.target {
+	background: rgba(250, 10, 10, 0.7);
+}
+
+.carrier {
+	background: rgba(36,36,36,1);
+}
+
+.battleship {
+	background: rgba(49,49,49,0.9);
+}
+
+.cruiser {
+	background: rgba(64,64,64,0.9);
+}
+
+.destroyer {
+	background: rgba(81,81,81,0.7);
+}
+
+.frigate {
+	background: rgba(100,100,100,0.7);
+}
