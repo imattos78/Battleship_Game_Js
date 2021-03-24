@@ -294,3 +294,44 @@ html {
 		left: 5px;
 	}
 }
+@-webkit-keyframes expand {
+	0% {
+		width: 0px;
+		height: 0px;
+		top: 12.5px;
+		left: 12.5px;
+	}
+	50% {
+		width: 25px;
+		height: 25px;
+		top: 0px;
+		left: 0px;
+	}
+	100% {
+		width: 15px;
+		height: 15px;
+		top: 5px;
+		left: 5px;
+	}
+}
+
+@-moz-keyframes expand {
+	0% {
+		width: 0px;
+		height: 0px;
+		top: 12.5px;
+		left: 12.5px;
+	}
+	50% {
+		width: 25px;
+		height: 25px;
+		top: 0px;
+		left: 0px;
+	}
+	100% {
+		width: 15px;
+		height: 15px;
+		top: 5px;
+		left: 5px;
+	}
+}
