@@ -44,3 +44,29 @@ function Fleet(name) {
 		return false;
 	};
 }
+
+function Ship(name){
+	this.name = name;
+	this.length = 0;
+	this.hitPoints = [];
+	this.populateHorzHits = function(start) {
+		for (var i = 0; i < this.length; i++, start++) {
+			this.hitPoints[i] = start;
+		}
+	};
+	this.populateVertHits = function(start) {
+		for (var i = 0; i < this.length; i++, start += 10) {
+			this.hitPoints[i] = start;
+		}
+	};
+	this.checkLocation = function(loc) {
+		for (var i = 0; i < this.length; i++) {
+			if (this.hitPoints[i] == loc) return true;		
+		}
+		return false;
+	};
+	this.getRidOf = function(pos) {
+		this.hitPoints.splice(pos, 1);
+	}
+}
+
